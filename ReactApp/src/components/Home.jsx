@@ -29,8 +29,8 @@ const Home = () => {
         <div>
             <h1>WHO ARE WE ?</h1>
             <p>
-                TechKill PVT. LTD. Foundeation consectetur, adipisicing elit. Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat. Odio nostrum commodi, adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
-                Odio nostrum commodi, adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
+                TechKill PVT. LTD. Foundeation consectetur, adipisicing elit. Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat. Odio nostrum commodi, adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>TechKill Foundation iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
+                Problem solving skill's adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>techKill Foundation iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
             </p>
 
         </div>

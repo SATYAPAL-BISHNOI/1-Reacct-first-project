@@ -93,18 +93,29 @@
     display: flex;
     >div{
         width: 70%;
-        height: 100vh;
+        height: 80vh;
         background-color: $first;
         border-radius: 0px 200px 200px 0px;
+        box-shadow: 5px 3px 5px 3px rgb(156, 156, 156);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 2rem;
-        animation: aboutX 0.7s linear infinite alternate;
+        animation: aboutX 0.7s linear alternate;
         >h1{
             text-transform: uppercase;
-            
+            border-bottom: 1px solid $dark;
+            padding: 0.5rem;
+            width: 17rem;
+            color: $dark;
+        }
+        >p{
+            padding: 5rem;
+            letter-spacing: 1px;
+            word-spacing: 5px;
+            line-height: 170%;
+            font: italic 100 1rem $text2;
         }
     }
 
