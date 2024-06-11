@@ -25,6 +25,16 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className="home3">
+        <div>
+            <h1>WHO ARE WE ?</h1>
+            <p>
+                TechKill PVT. LTD. Foundeation consectetur, adipisicing elit. Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat. Odio nostrum commodi, adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
+                Odio nostrum commodi, adipisci repellendus magnam suscipit sapiente deserunt nam. Quae, voluptas!<ul>Sequi odit eos iure quo, fuga harum modi? Sapiente corporis a repellat</ul>
+            </p>
+
+        </div>
+      </div>
     </>
   );
 };

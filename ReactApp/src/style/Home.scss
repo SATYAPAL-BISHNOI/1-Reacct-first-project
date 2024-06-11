@@ -4,6 +4,7 @@
     background-color: $sacond;
     height: 100vh;
     width: 100%;
+    border-radius: 0 0 200px 200px;
     >main{
         position: absolute;
         display: flex;
@@ -31,18 +32,20 @@
         position: absolute;
         background: no-repeat center/auto url(../assets/1.png);
         background-size: cover;
-        filter: blur(5px);
+        border-radius: 0 0 200px 200px;
+
+        // filter: blur(5px);
     }
 }
 .home2{
     height: 100vh;
     width: 100%;
     background-color: $sacond1;
-    // padding: 500px 0;
+    padding: 500px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin: -200px;
+    margin-top: -200px;
     >img{
         width: 30%;
         animation: imgup 0.7s linear infinite alternate;
@@ -79,5 +82,35 @@
 @keyframes imgup{
     to{
         transform: translateY(-20px );
+    }
+}
+
+.home3{
+    height: 120vh;
+    width: 100%;
+    background-color: $sacond1;
+    margin-top: -200px;
+    display: flex;
+    >div{
+        width: 70%;
+        height: 100vh;
+        background-color: $first;
+        border-radius: 0px 200px 200px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        animation: aboutX 0.7s linear infinite alternate;
+        >h1{
+            text-transform: uppercase;
+            
+        }
+    }
+
+}
+@keyframes aboutX{
+    to{
+        transform: translateX(-20px );
     }
 }
