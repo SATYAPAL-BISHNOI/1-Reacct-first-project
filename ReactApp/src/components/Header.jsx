@@ -1,16 +1,17 @@
 import React from 'react';
 import '../style/Header.scss';
 import { Link } from 'react-router-dom';
+import {HashLink } from "react-router-hash-link"
 
 const Header = () => {
   return (
     <nav>
         <h1>tECHKILL</h1>
         <main>
-            <Link to={'/'}>Home</Link>
+            <HashLink smooth to='#home'>Home</HashLink>
             <Link to={'/contect'}>Contact</Link>
-            <Link to={'/#about'}>About</Link>
-            <Link to={'/#Brands'}>Brand's</Link>
+            <HashLink smooth to='#about'>About</HashLink >
+            <HashLink smooth to='#brand'>Brand's</HashLink >
             <Link to={'/service'}>service</Link>
             {/* <Link></Link> */}
         </main>
