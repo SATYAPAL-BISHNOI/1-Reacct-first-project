@@ -8,7 +8,8 @@ const Header = () => {
     <nav>
         <h1>tECHKILL</h1>
         <main>
-            <HashLink smooth to='#home'>Home</HashLink>
+            {/* <HashLink smooth to='#home'>Home</HashLink> */}
+            <Link to={'/'}>Home</Link>
             <Link to={'/contect'}>Contact</Link>
             <HashLink smooth to='#about'>About</HashLink >
             <HashLink smooth to='#brand'>Brand's</HashLink >

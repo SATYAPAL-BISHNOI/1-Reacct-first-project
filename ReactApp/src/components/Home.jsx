@@ -4,6 +4,7 @@ import vg from "../assets/2.webp";
 import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram,AiFillTwitterCircle} from "react-icons/ai";
 
 
+
 const Home = () => {
   return (
     <>
@@ -18,9 +19,9 @@ const Home = () => {
         <div>
             <h3>About</h3>
           <p>
-            We are your one and only solution to the tech Problem's you face
+           <i> We are your one and only</i> solution to the tech Problem's you face
             everyday. We are landing the tech company whose aim is to <ul>increase
-            the problem solving ability in children.</ul>
+            the<b> problem solving ability in children.</b></ul>
             We are your one and only solution to the tech Problem's you face
             everyday.
             We are landing the tech company whose aim is to increase

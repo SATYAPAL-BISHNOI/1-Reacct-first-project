@@ -50,10 +50,12 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         >p{
             font: 400 1.2rem $text2;
             text-align: center;
             color: $third;
+            margin-left: 9rem;
         }
     }
 }
