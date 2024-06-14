@@ -57,8 +57,11 @@
                 transition: 0.3s;
                 &:hover{
                     opacity: 0.9;
-                    font-family: cursive;
-                    font-weight: 600;
+                    // font-family: $text2;
+                    // color: green;
+                    // color: aquamarine;
+                    // background-color: rgb(16, 27, 85);
+                    // font-weight: 600;
                 }
             }
         }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Home.scss";
 import vg from "../assets/2.webp";
-import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram,AiFillTwitterCircle} from "react-icons/ai";
+import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillTwitterCircle} from "react-icons/ai";
 
 
 
@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div className="home" id="home">
         <main>
-          <h1>tachkill</h1>
+          <h1>TECHkILL</h1>
           <p>Solution to all your problem'S</p>
         </main>
       </div>

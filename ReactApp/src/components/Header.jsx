@@ -6,14 +6,16 @@ import {HashLink } from "react-router-hash-link"
 const Header = () => {
   return (
     <nav>
-        <h1>tECHKILL</h1>
+        <h1>TECHkILL</h1>
         <main>
-            {/* <HashLink smooth to='#home'>Home</HashLink> */}
-            <Link to={'/'}>Home</Link>
+            <HashLink to={'/#home'}>Home</HashLink>
+            {/* <Link to={'/#home'}>Home</Link> */}
             <Link to={'/contect'}>Contact</Link>
-            <HashLink smooth to='#about'>About</HashLink >
-            <HashLink smooth to='#brand'>Brand's</HashLink >
+            <HashLink to={'/#about'}>About</HashLink >
+            <HashLink to={'/#brand'}>Brand's</HashLink >
             <Link to={'/service'}>service</Link>
+            <Link to={'/team'}>Founder&Team</Link>
+
             {/* <Link></Link> */}
         </main>
     </nav>

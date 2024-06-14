@@ -39,8 +39,12 @@ footer{
                 color: $dark;
                 font: 900 1rem $text2;
                 margin: 0.6rem;
+                padding: 0.4rem;
+                border-radius: 10px;
                 &:hover{
                     color: $third;
+                    border-bottom: 2px solid $third;
+                    border-top: 2px solid $third;
                 }
             }
         }
@@ -56,6 +60,15 @@ footer{
             text-align: center;
             color: $third;
             margin-left: 9rem;
+            border-radius: 10px;
+            padding: 1rem;
+            transition: 1s;
+            &:hover{
+                border-bottom: 2px solid $third;
+                // border-top: 2px solid $third;
+                transition: 1s;
+            }
+            
         }
     }
 }

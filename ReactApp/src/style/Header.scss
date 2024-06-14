@@ -11,7 +11,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     >h1{
-        text-transform: uppercase;
+        // text-transform: uppercase;
         font-family: cursive;
     }
     >main{
@@ -21,8 +21,14 @@ nav{
         >a{
             margin: 1rem;
             color: $dark;
-        &:hover{
+            padding: 0.3rem;
+            border-radius: 10px;
+            &:hover{
             color: $third;
+            transform: scale(1.2);
+            border-bottom: 2px solid $third;
+            border-top: 2px solid $third;
+            // width: 10%;
         }
         }
 

@@ -7,7 +7,7 @@ const Foot = () => {
     
     <footer>
         <div>
-            <h1>TechKill</h1>
+            <h1>TECHkILL</h1>
             <p>@ All Right reserved</p>
         </div>
 
@@ -22,7 +22,7 @@ const Foot = () => {
         </div>
         {/* copyright content */}
         <div className='copyright'>
-          <p>Copyright &copy; 2020 TechKill</p>
+          <p>Copyright &copy; 2020 TECHkILL</p>
         </div>
     </footer>
     </>
