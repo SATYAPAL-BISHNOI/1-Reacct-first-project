@@ -17,17 +17,20 @@ footer{
         justify-content: center;
         >h1{
             font: 700 2rem $text1;
-            text-transform: uppercase;
+            // text-transform: uppercase;
             color: $third;
+            cursor: pointer;
 
         }
         >p{
             font: 400 1.2rem $text2;
+            cursor: pointer;
         }
         >h5{
             font: 300 2rem italic/cursive;
             margin: 1rem 0;
             text-align: center;
+            cursor: pointer;
             text-transform: uppercase;
             color: $third;
         }

@@ -5,6 +5,8 @@ import Home from './components/Home'
 import Foot from './components/Footer'
 import Contect from './components/Contect'
 import Team from './components/Team'
+import Services from './components/Services'
+import "./style/mediaqurey.scss"
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/contect' element={<Contect/>}/>
+        <Route path='/service' element={<Services/>} />
         <Route path='/team' element={<Team/>} />
       </Routes>
       <Foot/>

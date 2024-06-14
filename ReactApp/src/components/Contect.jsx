@@ -17,7 +17,7 @@ const Contect = () => {
                     <input type="email" required placeholder='xyzx@outlook.com'/>
                 </div>
                 <div>
-                    <label>Message</label>
+                    <label>Info.</label>
                     <input type="text" required placeholder='Tell about your quary ....'/>
                 </div>
 
