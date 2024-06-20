@@ -2,9 +2,12 @@ import React from 'react';
 import '../style/Header.scss';
 import { Link } from 'react-router-dom';
 import {HashLink } from "react-router-hash-link"
+import {Carousel} from 'react-responsive-carousel'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Header = () => {
   return (
+    <Carousel>
     <nav>
         <h1>TECHkILL</h1>
         <main>
@@ -19,6 +22,7 @@ const Header = () => {
             {/* <Link></Link> */}
         </main>
     </nav>
+    </Carousel>
   )
 }
 
